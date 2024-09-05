@@ -9,7 +9,7 @@ clock = pygame.time.Clock()
 
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption('Mayhem')
-screen_image= pygame.image.load("images/bg_space_seamless.png")
+screen_image= pygame.image.load("../images/bg_space_seamless.png")
 
 #Color
 GREEN = (0, 255, 0)

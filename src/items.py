@@ -19,7 +19,7 @@ class obsticles(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self)
         width = random.randint(40, 80)
         height = random.randint(40, 80)
-        self.image = pygame.transform.smoothscale(pygame.image.load("images/Asteroid_Huge_Minerals.png"), (width, height))
+        self.image = pygame.transform.smoothscale(pygame.image.load("../images/Asteroid_Huge_Minerals.png"), (width, height))
         self.speedx = random.uniform(-1.5, 1.5)
         self.speedy = random.uniform(-1.5, 1.5)
         self.pos = Vector2(position)
@@ -70,7 +70,7 @@ class Fuel_can(pygame.sprite.Sprite):
         pygame.sprite.Sprite.__init__(self) 
         width = 30
         height = 40
-        self.image = pygame.transform.smoothscale(pygame.image.load("images/jerrycan.png"), (width, height))
+        self.image = pygame.transform.smoothscale(pygame.image.load("../images/jerrycan.png"), (width, height))
         self.original_image = self.image
         self.pos = Vector2(position)
         self.rect = self.image.get_rect(center=position)

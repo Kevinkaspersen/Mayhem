@@ -145,7 +145,7 @@ class Spaceship_1(Spaceships):
     def __init__(self):
         width = 40
         height = 45
-        self.image = pygame.transform.smoothscale(pygame.image.load("images/Green_Ship_Space.png"), (width, height))
+        self.image = pygame.transform.smoothscale(pygame.image.load("../images/Green_Ship_Space.png"), (width, height))
         super().__init__()
         
     def update(self):
@@ -251,7 +251,7 @@ class Spaceship_2(Spaceships):
     def __init__(self):
         width = 40
         height = 45
-        self.image = pygame.transform.smoothscale(pygame.image.load("images/Red_Ship_Space.png"), (width, height))
+        self.image = pygame.transform.smoothscale(pygame.image.load("../images/Red_Ship_Space.png"), (width, height))
         super().__init__()
 
        
